@@ -1,0 +1,5 @@
+use exam
+db.createCollection("course")
+db.course.insert({name: 'Web Programming', credits: 10})
+db.course.insert({name: 'SADI', credits: 15})
+db.course.insert({name: 'Web Dev Technology', credits: 10})
